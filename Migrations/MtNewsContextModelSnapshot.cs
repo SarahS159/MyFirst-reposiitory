@@ -25,10 +25,10 @@ namespace MtNews.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name")
+                    b.Property<string>("MtType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SubType")
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Type")
