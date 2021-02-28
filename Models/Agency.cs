@@ -10,7 +10,7 @@ namespace MtNews.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string  Type { get; set; } //search if we can put type restricted to three values only.
-        public string SubType { get; set; }
+        public string MtType { get; set; }
 
     }
 }
